@@ -1,6 +1,7 @@
 <?php
 
-use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
-Route::resource('products', ProductController::class);
+Route::get('form/search', function () {
+    return view('forms.search');
+})->name('forms.search');
