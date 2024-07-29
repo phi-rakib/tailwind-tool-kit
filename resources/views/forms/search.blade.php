@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Product List')
+@section('title', 'Search')
 
 @section('content')
 <div class="container mx-auto max-w-lg">
