@@ -9,3 +9,4 @@ Route::get('form/headings', fn() => view('forms.headings'))->name('forms.heading
 Route::get('form/links', fn() => view('forms.links'))->name('forms.links');
 Route::get('form/list', fn() => view('forms.list'))->name('forms.list');
 Route::get('form/pagination', fn() => view('forms.pagination'))->name('forms.pagination');
+Route::get('form/rating', fn() => view('forms.rating'))->name('forms.rating');
