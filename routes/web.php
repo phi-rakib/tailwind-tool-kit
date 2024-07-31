@@ -10,3 +10,4 @@ Route::get('form/links', fn() => view('forms.links'))->name('forms.links');
 Route::get('form/list', fn() => view('forms.list'))->name('forms.list');
 Route::get('form/pagination', fn() => view('forms.pagination'))->name('forms.pagination');
 Route::get('form/rating', fn() => view('forms.rating'))->name('forms.rating');
+Route::get('components/tabs', fn() => view('components.tabs'))->name('components.tabs');
