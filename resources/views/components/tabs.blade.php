@@ -62,4 +62,16 @@
       </ul>
       
       
+      <div class="flex">
+        <ul class="flex-col">
+          <li class="m-2 rounded-lg bg-blue-400 p-2 font-serif font-medium text-white">Dashboard</li>
+          <li class="m-2 rounded-lg bg-gray-300 p-2 font-serif font-medium hover:bg-blue-400 hover:text-white">Services</li>
+          <li class="m-2 rounded-lg bg-gray-300 p-2 font-serif font-medium hover:bg-blue-400 hover:text-white">Posts</li>
+          <li class="m-2 rounded-lg bg-gray-300 p-2 font-serif font-medium hover:bg-blue-400 hover:text-white">Settings</li>
+        </ul>
+        <div class="p-6">
+          <h3 class="mb-2 font-serif text-lg font-bold text-gray-600">Dashboard</h3>
+          <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi debitis quae, laudantium obcaecati cum est officiis laborum voluptates consequatur beatae nam veniam illum reiciendis, fugiat eveniet sed aliquid? Recusandae, iure?</p>
+        </div>
+      </div>      
 @endsection
